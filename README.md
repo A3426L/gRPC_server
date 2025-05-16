@@ -3,12 +3,15 @@
 このプロジェクトは、Python を使用して構築された基本的な gRPC サーバーの実装例です。gRPC の学習や、Python における gRPC サーバーの構築方法を理解するための参考としてご利用いただけます。
 
 ## 📁 プロジェクト構成
+```
 gRPC_server/
 ├── hello.proto
 ├── hello_pb2.py
 ├── hello_pb2_grpc.py
 ├── server.py
 └── __pycache__/
+
+```
 
 - `hello.proto`: gRPC サービスとメッセージの定義を記述した Protocol Buffers ファイルです。
 - `hello_pb2.py` & `hello_pb2_grpc.py`: `hello.proto` から自動生成された Python コードです。
